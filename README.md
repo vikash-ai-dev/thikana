@@ -1,16 +1,92 @@
-# React + Vite
+# Thikana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Thikana is a React-based web application built to practice frontend development and Firebase integration.
 
-Currently, two official plugins are available:
+The project focuses on building a practical React application and connecting it with Firebase to store and manage application data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- Built with React
+- Responsive user interface
+- Firebase database integration
+- Store and manage application data
+- Component-based React structure
+- Client-side application using Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- CSS
+- Firebase
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Project Structure
+
+```text
+thikana/
+├── public/
+├── src/
+│   ├── components/
+│   ├── ...
+├── .firebase/
+├── firebase.json
+├── package.json
+└── README.md
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vikash-ai-dev/thikana.git
+```
+
+### 2. Open the project
+
+```bash
+cd thikana
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local development URL shown in your terminal.
+
+## 🔥 Firebase
+
+This project uses Firebase for database functionality.
+
+The Firebase configuration is connected to the application through the project's Firebase setup.
+
+> Note: Firebase credentials and sensitive configuration values should not be exposed in the repository.
+
+## 🎯 Purpose
+
+Thikana was created as a learning project to gain practical experience with:
+
+- React application development
+- JavaScript
+- Component-based UI development
+- Firebase integration
+- Working with data in a frontend application
+
+## 👨‍💻 Author
+
+**Vikash Patel**
+
+- GitHub: [vikash-ai-dev](https://github.com/vikash-ai-dev)
+
+## 📄 License
+
+This project is for learning and educational purposes.
